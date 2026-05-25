@@ -1,6 +1,9 @@
 # WheatIQ 🌾
 
-WheatIQ is an AI-powered bilingual wheat disease assistant designed for early detection and classification of wheat diseases from images.
+🏆 This project was selected as one of the top final projects of the Data Science & Machine Learning Bootcamp.
+
+An AI-powered bilingual wheat disease assistant for image-based disease detection and interactive guidance.
+
 
 The system combines deep learning image classification with a conversational chatbot interface to help users identify wheat diseases and receive practical information about symptoms, spread conditions, prevention, and treatment guidance.
 
@@ -164,5 +167,9 @@ WheatIQ/
 │   ├── train_binary_classifier.py
 │   └── wheat_detector_train.py
 │
-├── README.md
-└── requirements.txt
+├── presentation/
+│   ├── project_presentation.pdf
+│   └── presentation_demo/
+│
+├── requirements.txt
+└── README.md
