@@ -126,30 +126,43 @@ WheatIQ/
 │   ├── chatbot.py
 │   ├── config.py
 │   ├── inference.py
-│   ├── kb_loader.py
-│   ├── label_utils.py
-│   └── main.py
+│   └── schemas.py
+│
+├── data/
+│   ├── raw_dataset/
+│   ├── processed/
+│   ├── sample_images/
+│   ├── binary_dataset/
+│   ├── TEST/
+│   └── wheat_detector_dataset/
+│
+├── gradio_app/
+│   ├── gradio_main.py
+│   ├── gradio_memory.db
+│   ├── logo.png
+│   └── requirements.txt
+│
+├── knowledge_base/
+│   ├── diseases.json
+│   └── translations.json
 │
 ├── models/
 │   ├── wheat_detector/
 │   ├── binary/
 │   └── keras/
 │
-├── knowledge_base/
-│   ├── diseases.json
-│   └── translations.json
-│
 ├── training/
+│   ├── build_binary_dataset.py
+│   ├── evaluate_per_class.py
+│   ├── evaluate_saved_MultiClassModel.py
+│   ├── evaluate_saved_Stage1_DetectorModel.py
+│   ├── evaluate_saved_Stage2_BinaryModel.py
 │   ├── keras_train.py
-│   ├── wheat_detector_train.py
-│   └── utils.py
+│   ├── test_keras_model.py
+│   ├── test_wheat_detector.py
+│   ├── testCode.py
+│   ├── train_binary_classifier.py
+│   └── wheat_detector_train.py
 │
-├── gradio_app/
-│   └── app.py
-│
-├── data/
-│   ├── raw_dataset/
-│   ├── processed/
-│   └── sample_images/
-│
+├── README.md
 └── requirements.txt
