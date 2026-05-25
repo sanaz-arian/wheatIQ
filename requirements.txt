@@ -1,0 +1,9 @@
+gradio
+tensorflow
+numpy
+pillow
+scikit-learn
+matplotlib
+pandas
+groq
+python-dotenv
