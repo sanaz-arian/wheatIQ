@@ -131,14 +131,6 @@ WheatIQ/
 │   ├── inference.py
 │   └── schemas.py
 │
-├── data/
-│   ├── raw_dataset/
-│   ├── processed/
-│   ├── sample_images/
-│   ├── binary_dataset/
-│   ├── TEST/
-│   └── wheat_detector_dataset/
-│
 ├── gradio_app/
 │   ├── gradio_main.py
 │   ├── gradio_memory.db
